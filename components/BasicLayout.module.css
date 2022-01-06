@@ -1,0 +1,27 @@
+.layout {
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: #fff;
+}
+
+.content {
+  min-height: calc(100vh - 134px);
+  padding: 24px;
+}
+
+.footer {
+  background-color: #001529;
+  color: #fff;
+  text-align: center;
+}
+.walletButtons {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
